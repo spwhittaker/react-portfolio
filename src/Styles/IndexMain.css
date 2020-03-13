@@ -7,3 +7,21 @@ main {
   flex-direction: column;
   align-items: stretch;
 }
+.photo-and-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile-photo {
+  object-fit: cover;
+  height: 15vw;
+  width: 15vw;
+
+  margin: 5px;
+  border-radius: 50%;
+
+  padding: 1em;
+  /*   top: 50px;
+  left: 20px; */
+}

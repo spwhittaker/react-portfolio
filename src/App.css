@@ -35,18 +35,11 @@ h3 {
   margin: 1em;
 }
 
-.profile-photo {
-  max-width: 60%;
-  min-width: 2in;
-  margin: 10px auto;
-  border-radius: 20px;
-}
-
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 10in;
+  max-width: 16in;
   align-content: center;
   margin: auto;
   min-height: 70vh;
@@ -57,9 +50,4 @@ p {
   margin: 1em;
   color: #332c23;
   line-height: 1.5em;
-}
-
-.screenshot {
-  max-width: 300px;
-  max-height: 400px;
 }

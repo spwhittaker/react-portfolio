@@ -28,7 +28,12 @@ const NavBar = () => {
           My Twitter
         </a>
 
-        <a href="get-in-touch.html" alt="Get in touch">
+        <a
+          href="mailto:stephenwhittaker23@gmail.com"
+          alt="Get in touch"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Get in touch
         </a>
       </nav>

@@ -38,111 +38,25 @@ const projects = [
 
 const IndexMain = () => {
   return (
-    <main id="indexMain">
-      <h1>Stephen Whittaker</h1>
-      <h2>My Portfolio</h2>
-      <img
-        src={reddishPhoto}
-        alt="Me at Reddish Vale"
-        className="profile-photo"
-        title="Here's a picture of me at Reddish Vale Country Park"
-      />
-      <h2>Hello, and welcome to my portfolio page.</h2>
-      <ul>
-        <h3>Here is some of the stuff that I've done so far:</h3>
-        <li>
-          This is the{" "}
-          <a
-            href="https://spwhittaker.github.io/html-scrapbook/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            HTML Scrapbook
-          </a>
-          , where I first put some HTML together. It looks disgusting,{" "}
-          <em>but</em> it's helping me to learn
-        </li>
-        <li>
-          Here is{" "}
-          <a
-            href="https://github.com/spwhittaker/Bus-Pass-stuff"
-            alt="Bus Pass repo"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            a bit of JavaScript
-          </a>{" "}
-          that works out how much you'd save by getting a bus season pass
-          instead of day savers
-        </li>
-        <li>
-          This is{" "}
-          <a
-            href="https://github.com/spwhittaker/buy-phones"
-            alt="Buy phones repo"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            a solution
-          </a>{" "}
-          I wrote to a challenge in{" "}
-          <a
-            href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/README.md"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            this fantastic ebook
-          </a>{" "}
-          by Kyle Simpson
-        </li>
-        <li>
-          Here is the{" "}
-          <a
-            href="https://spwhittaker.github.io/my-first-webpage/"
-            alt="My first website"
-          >
-            first webpage
-          </a>{" "}
-          that I made
-        </li>
-      </ul>
-      <h3>These are a couple of the webpages I have put together</h3>
-      <PortfolioCards cards={projects} />
-      {/* <div id="cardBoxBox">
-        <div className="cardBox">
-          <div className="card">
-            <a
-              href="https://spwhittaker.github.io/html-scrapbook/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              
-              <div className="card-heading">My HTML scrapbook</div>
-              <img
-                className="screenshot"
-                src={htmlScrapbookScreenshot}
-                alt="html scrapbook screenshot"
-              />
-            </a>
-          </div>
-          <div className="card">
-            <a
-              href="https://spwhittaker.github.io/my-first-webpage/"
-              alt="My first website"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Hello World". It's the first webpage I made.
-              <div className="card-heading"></div>
-              <img
-                className="screenshot"
-                src={myFirstWebpagePhoto}
-                alt="my first webpage screenshot"
-              />
-            </a>
-          </div>
+    <main className="indexMain">
+      <div className="photo-and-title">
+        <img
+          src={reddishPhoto}
+          alt="Me at Reddish Vale"
+          className="profile-photo"
+          title="Here's a picture of me at Reddish Vale Country Park"
+        />
+        <div>
+          {" "}
+          <h1>Stephen Whittaker</h1>
+          <h2>My Portfolio</h2>
+          <h2>Hello, and welcome to my portfolio page.</h2>
         </div>
-  </div> */}
+      </div>
+      <h3>Here is some of the stuff that I've done so far:</h3>
+
+      <h3>These are some of my projects</h3>
+      <PortfolioCards cards={projects} />
     </main>
   );
 };
