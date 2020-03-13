@@ -1,16 +1,17 @@
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   justify-self: flex-end;
+  /*  align-items: stretch; */
 
   /* align-self: flex-end; */
 }
 
 footer * {
-  font-size: 60%;
-  flex: 1 1 20%;
-  text-align: center;
+  font-size: 70%;
+  /* flex: 1 1 20%; */
+  /* text-align: center; */
 }
 
 footer p a {
