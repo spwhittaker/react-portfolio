@@ -26,9 +26,6 @@
 }
 
 @media screen and (max-width: 450px) {
-  body {
-    background-color: lightgreen;
-  }
   .portfolio-card {
     width: 100%;
   }
