@@ -7,10 +7,11 @@ import reddishPhoto from "../Images/reddishvaleme.jpg";
 const projects = [
   {
     title: "Pizzarithmetic",
-    description: "A pizza value calculator",
+    description:
+      "A pizza value calculator to get you the best value for money on your takeaway",
     link: "https://pizza-maths.now.sh/",
     portfolioImage:
-      "https://res.cloudinary.com/spwhittaker/image/upload/v1584033879/pizza_ib8xge.jpg"
+      "https://res.cloudinary.com/spwhittaker/image/upload/v1584115521/Screenshot_from_2020-03-13_16-04-32_j7abys.png"
   },
   {
     title: "Weather App",
@@ -25,6 +26,14 @@ const projects = [
     link: "https://github.com/spwhittaker/music-library-api",
     portfolioImage:
       "https://res.cloudinary.com/spwhittaker/image/upload/v1584088511/photo-1487215078519-e21cc028cb29_sjewoy.jpg"
+  },
+  {
+    title: "Surreal Estate",
+    description:
+      "Mock real estate website, allows browsing and adding properties, using Express and MongoDB backend",
+    link: "https://github.com/spwhittaker/surreal-estate",
+    portfolioImage:
+      "https://res.cloudinary.com/spwhittaker/image/upload/v1584107004/Screenshot_from_2020-03-13_13-42-24_mnxjxo.png"
   },
   {
     title: "Virtual Pet",
@@ -49,12 +58,14 @@ const IndexMain = () => {
         <div>
           {" "}
           <h1>Stephen Whittaker</h1>
-          <h2>My Portfolio</h2>
-          <h2>Hello, and welcome to my portfolio page.</h2>
+          <p>
+            JavaScript developer based in Manchester. JavaScript, React,
+            ExpressJS, MongoDB.
+          </p>
         </div>
       </div>
-      <h3>Here is some of the stuff that I've done so far:</h3>
 
+      <h2>My Portfolio</h2>
       <h3>These are some of my projects</h3>
       <PortfolioCards cards={projects} />
     </main>

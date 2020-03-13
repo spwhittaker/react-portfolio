@@ -2,14 +2,14 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  min-height: 100%;
-  justify-content: center;
+  min-height: 100vh;
+  justify-content: space-between;
   align-items: stretch;
 }
 
 body {
   font-family: "Quicksand", sans-serif;
-  background-color: #d7e9f2;
+  background-color: hsl(200, 51%, 94%);
   min-height: 100vh;
   margin: 0;
 }
@@ -43,6 +43,7 @@ main {
   align-content: center;
   margin: auto;
   min-height: 70vh;
+  padding: 10px;
 }
 
 p {
@@ -50,4 +51,8 @@ p {
   margin: 1em;
   color: #332c23;
   line-height: 1.5em;
+}
+
+.footer {
+  justify-self: flex-end;
 }

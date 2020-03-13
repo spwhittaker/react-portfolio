@@ -1,16 +1,20 @@
 import React from "react";
 import "../Styles/NavBar.css";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div className="top-bar">
       <nav>
-        <a href="index.html" alt="Home">
+        <Link className="item" to="/">
           Home
-        </a>
-        <a href="about.html" alt="About me">
+        </Link>
+        <Link className="item" to="/about">
           About me
-        </a>
+        </Link>
+        {/* <a href="about.html" alt="About me">
+          About me
+        </a> */}
         <a
           href="https://github.com/spwhittaker"
           alt="GitHub"
