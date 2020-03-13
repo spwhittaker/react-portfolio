@@ -1,0 +1,9 @@
+main > * {
+  margin: 10px auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}

@@ -1,0 +1,11 @@
+.PortfolioCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin: auto;
+  align-content: center;
+
+  width: 100%;
+}
