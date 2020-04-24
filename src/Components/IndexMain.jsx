@@ -1,7 +1,7 @@
 import React from "react";
 import PortfolioCards from "./PortfolioCards";
-import "../Styles/PortfolioCards.css";
-import "../Styles/IndexMain.css";
+import "../Styles/PortfolioCards.scss";
+import "../Styles/IndexMain.scss";
 import reddishPhoto from "../Images/reddishvaleme.jpg";
 
 const projects = [
@@ -11,21 +11,21 @@ const projects = [
       "A pizza value calculator to get you the best value for money on your takeaway",
     link: "https://pizza-maths.now.sh/",
     portfolioImage:
-      "https://res.cloudinary.com/spwhittaker/image/upload/v1584115521/Screenshot_from_2020-03-13_16-04-32_j7abys.png"
+      "https://res.cloudinary.com/spwhittaker/image/upload/v1584115521/Screenshot_from_2020-03-13_16-04-32_j7abys.png",
   },
   {
     title: "Weather App",
     description: "Five-day weather forecast app",
     link: "https://github.com/spwhittaker/best-weather-app",
     portfolioImage:
-      "https://res.cloudinary.com/spwhittaker/image/upload/v1584037392/Screenshot_from_2020-03-12_18-22-19_bvexng.png"
+      "https://res.cloudinary.com/spwhittaker/image/upload/v1584037392/Screenshot_from_2020-03-12_18-22-19_bvexng.png",
   },
   {
     title: "Music Library API",
     description: "API using MongoDB for storing a music collection",
     link: "https://github.com/spwhittaker/music-library-api",
     portfolioImage:
-      "https://res.cloudinary.com/spwhittaker/image/upload/v1584088511/photo-1487215078519-e21cc028cb29_sjewoy.jpg"
+      "https://res.cloudinary.com/spwhittaker/image/upload/v1584088511/photo-1487215078519-e21cc028cb29_sjewoy.jpg",
   },
   {
     title: "Surreal Estate",
@@ -33,7 +33,7 @@ const projects = [
       "Mock real estate website, allows browsing and adding properties, using Express and MongoDB backend",
     link: "https://github.com/spwhittaker/surreal-estate",
     portfolioImage:
-      "https://res.cloudinary.com/spwhittaker/image/upload/v1584107004/Screenshot_from_2020-03-13_13-42-24_mnxjxo.png"
+      "https://res.cloudinary.com/spwhittaker/image/upload/v1584107004/Screenshot_from_2020-03-13_13-42-24_mnxjxo.png",
   },
   {
     title: "Virtual Pet",
@@ -41,8 +41,8 @@ const projects = [
       "A program to create a virtual pet, similar to but legally distinct from a Tamagotchi",
     link: "https://github.com/spwhittaker/virtual-pet",
     portfolioImage:
-      "https://res.cloudinary.com/spwhittaker/image/upload/v1584038025/600px-thumbnail_gbjtm5.jpg"
-  }
+      "https://res.cloudinary.com/spwhittaker/image/upload/v1584038025/600px-thumbnail_gbjtm5.jpg",
+  },
 ];
 
 const IndexMain = () => {

@@ -1,6 +1,16 @@
 import React from "react";
-import "../Styles/Footer.css";
+import "../Styles/Footer.scss";
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
+  console.log(year);
+  let copyrightString;
+  if (year === 2019) {
+    copyrightString = `Copyright © 2019 Stephen Whittaker`;
+  } else {
+    copyrightString = `Copyright © 2019 - ${year} Stephen Whittaker`;
+  }
+
   return (
     <footer>
       <p>
@@ -8,7 +18,7 @@ const Footer = () => {
           Go to Top
         </a>
       </p>
-      <p>Copyright&copy; 2019-2020 Stephen Whittaker</p>
+      <p>{copyrightString}</p>
       <p>
         <a
           href="mailto:stephenwhittaker23@gmail.com"

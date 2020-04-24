@@ -1,10 +1,10 @@
 import React from "react";
-import "../Styles/NavBar.css";
+import "../Styles/NavBar.scss";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="top-bar">
+    <div className="nav-bar">
       <nav>
         <Link className="item" to="/">
           Home

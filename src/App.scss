@@ -9,7 +9,8 @@
 
 body {
   font-family: "Quicksand", sans-serif;
-  background-color: hsl(200, 51%, 94%);
+  /*   background-color: #e8f2f8; */
+  background-image: linear-gradient(#e8f2f8, #f0fbff);
   min-height: 100vh;
   margin: 0;
 }
@@ -55,4 +56,8 @@ p {
 
 .footer {
   justify-self: flex-end;
+}
+::selection {
+  background: #88527f;
+  color: white;
 }

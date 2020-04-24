@@ -1,8 +1,8 @@
 import React from "react";
-import "../Styles/AboutMe.css";
+import "../Styles/AboutMe.scss";
 const AboutMe = () => {
   return (
-    <main>
+    <main className="AboutMe">
       <section class="bio">
         <h2>A little about me</h2>
         <p>
@@ -22,7 +22,7 @@ const AboutMe = () => {
           <a href="https://www.codewars.com/">Codewars</a> and{" "}
           <a href="https://projecteuler.net/">Project Euler</a>. I have studied
           JavaScript, React, ExpressJS and MongoDB, which I've used to build
-          projects you can find at my{" "}
+          projects that you can find at my{" "}
           <a href="https://github.com/spwhittaker">GitHub</a>.
         </p>
         <p>

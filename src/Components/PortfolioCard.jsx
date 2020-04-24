@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/PortfolioCard.css";
+import "../Styles/PortfolioCard.scss";
 const PortfolioCard = ({ link, portfolioImage, title, description }) => {
   return (
     <div className="portfolio-card">

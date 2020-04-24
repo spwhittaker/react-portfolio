@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./App.css";
+import "./App.scss";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import IndexMain from "./Components/IndexMain";
