@@ -6,12 +6,20 @@ import reddishPhoto from "../Images/reddishvaleme.jpg";
 
 const projects = [
   {
+    title: "No more overscan",
+    description:
+      "A site I made to show, interactively, how terrible overscan is on televisions",
+    link: "https://no-more-overscan.vercel.app/",
+    portfolioImage:
+      "https://res.cloudinary.com/spwhittaker/image/upload/v1600079246/no-more-overscan_dm70ys.png",
+  },
+  {
     title: "Pizzarithmetic",
     description:
       "A pizza value calculator to get you the best value for money on your takeaway",
     link: "https://pizza-maths.now.sh/",
     portfolioImage:
-      "https://res.cloudinary.com/spwhittaker/image/upload/v1584115521/Screenshot_from_2020-03-13_16-04-32_j7abys.png",
+      "https://res.cloudinary.com/spwhittaker/image/upload/v1600079341/pizzarithmetic_yul0b3.png",
   },
   {
     title: "Weather App",
