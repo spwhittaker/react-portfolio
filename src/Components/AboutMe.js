@@ -14,7 +14,7 @@ const AboutMe = () => {
             rel="noopener noreferrer"
           >
             Manchester Codes
-          </a>{" "}
+          </a>
           at the start of September 2019. I like figuring out how things work
           and making processes more efficient. I like writing code that does
           useful stuff, silly stuff and stuff that people can really use. I love

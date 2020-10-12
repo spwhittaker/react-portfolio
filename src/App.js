@@ -6,7 +6,7 @@ import Footer from "./Components/Footer";
 import IndexMain from "./Components/IndexMain";
 import AboutMe from "./Components/AboutMe";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
-/* import ContactForm from "./Components/ContactForm"; */
+
 class App extends React.Component {
   render() {
     return (

@@ -6,7 +6,15 @@ import reddishPhoto from "../Images/reddishvaleme.jpg";
 
 const projects = [
   {
-    title: "No more overscan",
+    title: "Country Checker",
+    description:
+      "Country info with dynamic colours from flags. Knowledge tester for countries, their capitals and flags.",
+    link: "https://country-tester.vercel.app/",
+    portfolioImage:
+      "https://res.cloudinary.com/spwhittaker/image/upload/v1602512043/country-checker_ehoydw.png",
+  },
+  {
+    title: "No More Overscan!",
     description:
       "A site I made to show, interactively, how terrible overscan is on televisions",
     link: "https://no-more-overscan.vercel.app/",
