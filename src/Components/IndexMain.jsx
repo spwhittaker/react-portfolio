@@ -72,7 +72,6 @@ const IndexMain = () => {
           title="Here's a picture of me at Reddish Vale Country Park"
         />
         <div>
-          {" "}
           <h1>Stephen Whittaker</h1>
           <p>
             JavaScript developer based in Manchester. JavaScript, React,
