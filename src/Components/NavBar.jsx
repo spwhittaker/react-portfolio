@@ -12,9 +12,7 @@ const NavBar = () => {
         <Link className="item" to="/about">
           About me
         </Link>
-        {/* <a href="about.html" alt="About me">
-          About me
-        </a> */}
+
         <a
           href="https://github.com/spwhittaker"
           alt="GitHub"
@@ -32,14 +30,9 @@ const NavBar = () => {
           My Twitter
         </a>
 
-        <a
-          href="mailto:stephenwhittaker23@gmail.com"
-          alt="Get in touch"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link className="item" to="/contact" alt="Get in touch">
           Get in touch
-        </a>
+        </Link>
       </nav>
     </div>
   );
