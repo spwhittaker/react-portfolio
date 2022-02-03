@@ -1,0 +1,81 @@
+.App {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: stretch;
+}
+* > {
+  font-family: "Antic Didone", serif;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-family: "Maitree", serif;
+  /*   background-color: #e8f2f8; */
+  background-image: linear-gradient(#e8f2f8, #f0fbff);
+  min-height: 100vh;
+  margin: 0;
+  font-weight: bold;
+
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #614344;
+  font-family: "Maitree", serif;
+  font-family: "Source Code Pro", monospace;
+  font-size: 2.6em;
+}
+
+h2 {
+  color: #e8f2f8;
+  background-color: #4a4459;
+  font-family: "Maitree", serif;
+
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: justify;
+
+  padding: 15px;
+}
+
+h3 {
+  color: #4a4459;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.4em;
+  margin: 1em;
+  a {
+    text-decoration: none;
+    color: #614344;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 16in;
+  align-content: center;
+  margin: auto;
+  min-height: 70vh;
+  padding: 10px;
+}
+
+p {
+  text-align: justify;
+  margin: 1em;
+  color: #332c23;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+
+.footer {
+  justify-self: flex-end;
+}
+::selection {
+  background: #88527f;
+  color: white;
+}

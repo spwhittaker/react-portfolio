@@ -1,0 +1,45 @@
+.nav-bar {
+  display: block;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+  left: 0;
+  margin: 0;
+  background-color: #bbcbdd;
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* box-shadow: 0px 10px 19px -10px rgba(0,0,0,0.46); */
+  }
+
+  a {
+    font-weight: bold;
+    color: #0096a1;
+  }
+
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border: 5px;
+    margin: 5px;
+    background-color: #bbcbdd;
+    border-radius: 5px;
+    color: #4a4459;
+  }
+
+  nav a:hover {
+    animation: hover-text-nav 0.15s ease-out 0s 1 both;
+  }
+
+  @keyframes hover-text-nav {
+    100% {
+      background-color: #f4f9fb;
+      box-shadow: 2px 2px 5px 1px rgba(71, 71, 71, 0.41);
+    }
+  }
+}

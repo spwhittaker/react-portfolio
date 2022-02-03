@@ -1,0 +1,56 @@
+main {
+  margin: 10px auto;
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.photo-and-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile-photo {
+  object-fit: cover;
+  height: 15vw;
+  width: 15vw;
+
+  margin: 5px;
+  border-radius: 50%;
+
+  padding: 1em;
+  /*   top: 50px;
+  left: 20px; */
+}
+@media screen and (max-width: 8in) {
+  main {
+    margin: 5px;
+  }
+
+  .photo-and-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .profile-photo {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+
+    border-radius: 50%;
+    margin: auto;
+
+    /*   top: 50px;
+    left: 20px; */
+  }
+}

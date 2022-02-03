@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-self: flex-end;
+  /*  align-items: stretch; */
+
+  /* align-self: flex-end; */
+
+  * {
+    font-size: 70%;
+    /* flex: 1 1 20%; */
+    /* text-align: center; */
+  }
+
+  p a {
+    text-decoration: none;
+    color: #332c23;
+    font-size: 100%;
+  }
+}
