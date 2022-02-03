@@ -25,7 +25,7 @@ const projects = [
     title: "Pizzarithmetic",
     description:
       "A pizza value calculator to get you the best value for money on your takeaway",
-    link: "https://pizza-maths.now.sh/",
+    link: "https://pizza-maths.vercel.app/",
     portfolioImage:
       "https://res.cloudinary.com/spwhittaker/image/upload/v1600079341/pizzarithmetic_yul0b3.png",
   },
