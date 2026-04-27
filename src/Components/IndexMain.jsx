@@ -5,14 +5,15 @@ import "../Styles/IndexMain.scss";
 import myPhoto from "../Images/me.png";
 
 const projects = [
-  {
+/* Comment out while working on new API  
+{
     title: "Country Tester",
     description:
       "Country info with dynamic colours from flags. Knowledge tester for countries, their capitals and flags.",
     link: "https://country-tester.vercel.app/",
     portfolioImage:
       "https://res.cloudinary.com/spwhittaker/image/upload/v1643901148/Screenshot_2022-02-03_at_15-12-01_Country_tester_bf1zhy.png",
-  },
+  },*/
   {
     title: "No More Overscan!",
     description:
